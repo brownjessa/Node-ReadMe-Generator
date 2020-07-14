@@ -9,15 +9,10 @@ Version: 1.0.0
 Topics: 
 
 
-## About
-
-[https://github.com/charristmatic/node-readme-generator](https://github.com/charristmatic/node-readme-generator)
-
 ### Author
 
--  name: "Matt Harris"
--  email: "m@ttharr.is"
--  website: "https://ma.ttharr.is"
+-  name: "Jessamine Brown"
+-  email: "brownjessa11@gmail.com"
 
 ---
 
@@ -50,8 +45,4 @@ Topics:
 
 
 ---
-
-### Licesnse
-
-ISC[ISC](https://opensource.org/licenses/undefined)
 
