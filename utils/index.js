@@ -4,24 +4,24 @@ const inquirer = require("inquirer");
 const generateMarkdown = require("./generateMarkdown");
 const questions = [
   {
-    type: "",
-    name: "",
-    message: "",
+    type: "input",
+    name: "github",
+    message: "What is your GitHub username?",
   },
   {
-    type: "",
-    name: "",
-    message: "",
+    type: "input",
+    name: "email",
+    message: "What is your email address?",
   },
   {
-    type: "",
-    name: "",
-    message: "",
+    type: "input",
+    name: "title",
+    message: "What is your project's name?",
   },
   {
-    type: "",
-    name: "",
-    message: "",
+    type: "input",
+    name: "description",
+    message: "Please write a short description of your project.",
   },
   {
     type: "",
