@@ -49,3 +49,14 @@ const questions = [
     message: "",
   },
 ];
+function writeToFile(fileName, data) {
+  return fs.writeFileSync(path.join(process.cwd(), fileName), data);
+}
+function init() {
+  inquirer.prompt(questions).then((inquirerResponses) => {
+    console.log("Generating README...");
+    writeToFile("README.md", generateMarkdown({ ...inquirerResponses }));
+  });
+}
+
+init();
