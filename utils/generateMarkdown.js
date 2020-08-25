@@ -17,3 +17,6 @@ function renderLicenseSection(license) {
   }
   return "";
 }
+function generateMarkdown(data) {
+    return `# ${data.title}
+  ${renderLicenseBadge(data.license)}
