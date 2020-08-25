@@ -4,3 +4,16 @@ function renderLicenseBadge(license) {
   }
   return "";
 }
+function renderLicenseLink(license) {
+  if (license !== "None") {
+    return `\n* [License](#license)\n`;
+  }
+  return "";
+}
+function renderLicenseSection(license) {
+  if (license !== "None") {
+    return `## License
+  This project is licensed under the ${license} license.`;
+  }
+  return "";
+}
